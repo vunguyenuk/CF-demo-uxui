@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000010 /* ChargeFuzeWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* ChargeFuzeWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B10000000000000000000012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000000000000000000009 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10000000000000000000006;
+			remoteInfo = ChargeFuzeWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B10000000000000000000011 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B10000000000000000000010 /* ChargeFuzeWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000001 /* ChargeFuze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChargeFuze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000001 /* ChargeFuzeWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChargeFuzeWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A10000000000000000000002 /* ChargeFuze */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChargeFuze;
+			sourceTree = "<group>";
+		};
+		B10000000000000000000002 /* ChargeFuzeWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChargeFuzeWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000004 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000002 /* ChargeFuze */,
+				B10000000000000000000002 /* ChargeFuzeWidgets */,
+				A10000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000001 /* ChargeFuze.app */,
+				B10000000000000000000001 /* ChargeFuzeWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000006 /* ChargeFuze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000000000000000000000B /* Build configuration list for PBXNativeTarget "ChargeFuze" */;
+			buildPhases = (
+				A10000000000000000000007 /* Sources */,
+				A10000000000000000000003 /* Frameworks */,
+				A10000000000000000000008 /* Resources */,
+				B10000000000000000000011 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10000000000000000000013 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A10000000000000000000002 /* ChargeFuze */,
+			);
+			name = ChargeFuze;
+			packageProductDependencies = (
+			);
+			productName = ChargeFuze;
+			productReference = A10000000000000000000001 /* ChargeFuze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B10000000000000000000006 /* ChargeFuzeWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1000000000000000000000B /* Build configuration list for PBXNativeTarget "ChargeFuzeWidgets" */;
+			buildPhases = (
+				B10000000000000000000007 /* Sources */,
+				B10000000000000000000003 /* Frameworks */,
+				B10000000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B10000000000000000000002 /* ChargeFuzeWidgets */,
+			);
+			name = ChargeFuzeWidgets;
+			packageProductDependencies = (
+			);
+			productName = ChargeFuzeWidgets;
+			productReference = B10000000000000000000001 /* ChargeFuzeWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A10000000000000000000006 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					B10000000000000000000006 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = A1000000000000000000000A /* Build configuration list for PBXProject "ChargeFuze" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000004;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A10000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000006 /* ChargeFuze */,
+				B10000000000000000000006 /* ChargeFuzeWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B10000000000000000000013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B10000000000000000000006 /* ChargeFuzeWidgets */;
+			targetProxy = B10000000000000000000012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_BASE_URL = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChargeFuze-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = chargeFUZE;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan the QR code on a chargeFUZE kiosk to rent a charger.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Find nearby chargeFUZE kiosks and show walking directions to rent or return a charger.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chargefuze.redesign.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_BASE_URL = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChargeFuze-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = chargeFUZE;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan the QR code on a chargeFUZE kiosk to rent a charger.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Find nearby chargeFUZE kiosks and show walking directions to rent or return a charger.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chargefuze.redesign.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B1000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChargeFuzeWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = chargeFUZE;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chargefuze.redesign.demo.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B1000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChargeFuzeWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = chargeFUZE;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chargefuze.redesign.demo.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000000000000000000000A /* Build configuration list for PBXProject "ChargeFuze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000000000000000000000C /* Debug */,
+				A1000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000000000000000000000B /* Build configuration list for PBXNativeTarget "ChargeFuze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000000000000000000000E /* Debug */,
+				A1000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1000000000000000000000B /* Build configuration list for PBXNativeTarget "ChargeFuzeWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1000000000000000000000E /* Debug */,
+				B1000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000009 /* Project object */;
+}
