@@ -1,0 +1,89 @@
+Blender 4.0.2 (hash 9be62e85b727 built 2023-12-05 08:05:41)
+Read prefs: "/Users/vunguyen/Library/Application Support/Blender/4.0/config/userpref.blend"
+Read blend: "/Users/vunguyen/Desktop/iphone-18-pro-max-high-quality-3d-model/_vert/kiosk_vert.blend"
+Fra:455 Mem:117.15M (Peak 118.26M) | Time:00:00.29 | Syncing Body_Lower
+Fra:455 Mem:117.49M (Peak 118.26M) | Time:00:00.31 | Syncing KioskRig
+Fra:455 Mem:117.50M (Peak 118.26M) | Time:00:00.31 | Syncing Body_Back
+Fra:455 Mem:117.66M (Peak 118.26M) | Time:00:00.31 | Syncing Screen_Module
+Fra:455 Mem:117.85M (Peak 118.26M) | Time:00:00.31 | Syncing Seam
+Fra:455 Mem:118.00M (Peak 118.26M) | Time:00:00.31 | Syncing Screen_Border
+Fra:455 Mem:118.16M (Peak 118.26M) | Time:00:00.31 | Syncing Screen_Glass
+Fra:455 Mem:125.33M (Peak 132.09M) | Time:00:00.34 | Syncing Base
+Fra:455 Mem:125.50M (Peak 132.09M) | Time:00:00.34 | Syncing Logo
+Fra:455 Mem:126.75M (Peak 132.09M) | Time:00:00.34 | Syncing Key
+Fra:455 Mem:126.75M (Peak 132.09M) | Time:00:00.34 | Syncing Fill
+Fra:455 Mem:126.75M (Peak 132.09M) | Time:00:00.34 | Syncing Rim
+Fra:455 Mem:126.75M (Peak 132.09M) | Time:00:00.34 | Syncing Top
+Fra:455 Mem:126.75M (Peak 132.09M) | Time:00:00.34 | Syncing Camera
+Fra:455 Mem:126.75M (Peak 132.09M) | Time:00:00.34 | Syncing Cam_Film
+Fra:455 Mem:126.75M (Peak 132.09M) | Time:00:00.34 | Syncing Cam_Target
+Fra:455 Mem:126.75M (Peak 132.09M) | Time:00:00.34 | Syncing PowerBank
+Fra:455 Mem:126.75M (Peak 132.09M) | Time:00:00.34 | Syncing PB_Body
+Fra:455 Mem:127.10M (Peak 132.09M) | Time:00:00.34 | Syncing PB_FrontPanel
+Fra:455 Mem:127.27M (Peak 132.09M) | Time:00:00.34 | Syncing PB_LED_0
+Fra:455 Mem:127.43M (Peak 132.09M) | Time:00:00.34 | Syncing PB_LED_1
+Fra:455 Mem:127.60M (Peak 132.09M) | Time:00:00.35 | Syncing PB_LED_2
+Fra:455 Mem:127.76M (Peak 132.09M) | Time:00:00.35 | Syncing PB_LED_3
+Fra:455 Mem:127.92M (Peak 132.09M) | Time:00:00.35 | Syncing PB_F_Bolt
+Fra:455 Mem:128.10M (Peak 132.09M) | Time:00:00.35 | Syncing PB_F_Rent
+Fra:455 Mem:128.25M (Peak 132.09M) | Time:00:00.35 | Syncing PB_F_Charge
+Fra:455 Mem:128.40M (Peak 132.09M) | Time:00:00.35 | Syncing PB_F_Return
+Fra:455 Mem:128.56M (Peak 132.09M) | Time:00:00.35 | Syncing PB_F_Logo
+Fra:455 Mem:128.99M (Peak 132.09M) | Time:00:00.35 | Syncing PB_F_QR
+Fra:455 Mem:129.17M (Peak 132.09M) | Time:00:00.35 | Syncing PB_B_Logo
+Fra:455 Mem:129.60M (Peak 132.09M) | Time:00:00.35 | Syncing PB_B_H0
+Fra:455 Mem:129.75M (Peak 132.09M) | Time:00:00.35 | Syncing PB_B_L0
+Fra:455 Mem:129.90M (Peak 132.09M) | Time:00:00.35 | Syncing PB_B_H1
+Fra:455 Mem:130.04M (Peak 132.09M) | Time:00:00.35 | Syncing PB_B_L1
+Fra:455 Mem:130.19M (Peak 132.09M) | Time:00:00.35 | Syncing PB_B_H2
+Fra:455 Mem:130.34M (Peak 132.09M) | Time:00:00.35 | Syncing PB_B_L2
+Fra:455 Mem:130.49M (Peak 132.09M) | Time:00:00.35 | Syncing PB_B_Secure
+Fra:455 Mem:130.64M (Peak 132.09M) | Time:00:00.35 | Syncing PB_B_ReturnWay
+Fra:455 Mem:130.80M (Peak 132.09M) | Time:00:00.35 | Syncing PB_Port_0
+Fra:455 Mem:1
+....
+
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Bank_211
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_LED_211
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Status_212
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Bank_212
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_LED_212
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Status_213
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Status_220
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Status_221
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Bank_221
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_LED_221_0
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_LED_221_1
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_LED_221_2
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Status_222
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Status_223
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Bank_223
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_LED_223_0
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_LED_223_1
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_LED_223_2
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_003
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_012
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_013
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_021
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_102
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_122
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_123
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_200
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_201
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_202
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_213
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_220
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Ins_Cover_222
+Fra:472 Mem:196.82M (Peak 255.39M) | Time:00:00.46 | Syncing Cam_Phone_Closeup
+Fra:472 Mem:196.77M (Peak 255.39M) | Time:00:00.46 | Rendering 1 / 97 samples
+Fra:472 Mem:196.52M (Peak 255.39M) | Time:00:00.51 | Rendering 26 / 96 samples
+Fra:472 Mem:197.02M (Peak 255.39M) | Time:00:00.55 | Rendering 51 / 96 samples
+Fra:472 Mem:196.20M (Peak 255.39M) | Time:00:03.22 | Rendering 76 / 96 samples
+Fra:472 Mem:196.58M (Peak 255.39M) | Time:00:03.26 | Rendering 96 / 96 samples
+Saved: '/Users/vunguyen/Desktop/iphone-18-pro-max-high-quality-3d-model/_vert/seq37/f_0472.png'
+Time: 00:04.03 (Saving: 00:00.11)
+
+BlenderMCP addon registered
+BlenderMCP addon unregistered
+
+Blender quit
