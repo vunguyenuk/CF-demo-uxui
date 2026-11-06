@@ -195,11 +195,11 @@ struct WalkView: View {
                 }
                 Spacer(minLength: 4)
                 if canLookAround { LookAroundButton(action: openLookAround) }
-                Button { dismiss() } label: {
-                    Text("End").font(.headline).padding(.horizontal, 18).frame(height: Theme.buttonHeight)
+                Button { arriveNow() } label: {
+                    Text("I'm at kiosk").font(.headline).lineLimit(1).padding(.horizontal, 18).frame(height: Theme.buttonHeight)
                 }
-                .buttonStyle(FilledCapsuleStyle(tint: Theme.danger))
-                .accessibilityLabel("End route")
+                .buttonStyle(FilledCapsuleStyle(tint: Theme.brand))
+                .accessibilityLabel("I'm at kiosk")
             }
 
             if route != nil {
@@ -364,7 +364,7 @@ struct WalkView: View {
             }
             if t >= 1 { break }
         }
-        guard !Task.isCancelled else { return }
+        guard !Task.isCancelled, !arrived else { return }   // "I'm at kiosk" already handled arrival
         if model.isDemo, requiresVenueHandoff {
             approachingKiosk = true
             let start = pts[n - 1]
@@ -376,6 +376,7 @@ struct WalkView: View {
                 let now = Date.now
                 if !isLookingAround { approachElapsed += now.timeIntervalSince(lastApproachTick) }
                 lastApproachTick = now
+                if arrived { return }
                 if isLookingAround { continue }
                 let fraction = min(1, approachElapsed / 0.9)
                 let point = MKMapPoint(x: start.x + (end.x - start.x) * fraction,
@@ -395,12 +396,29 @@ struct WalkView: View {
             camera = .camera(MapCamera(centerCoordinate: me ?? station.coordinate, distance: 290))
             arrived = true
         }
+        handleArrival()
+    }
+
+    /// "I'm at kiosk": the user says they're there (GPS can be off indoors) → same arrival as reaching the end of the route.
+    private func arriveNow() {
+        guard !arrived else { return }
+        approachingKiosk = false
+        withAnimation(.smooth(duration: 0.35)) {
+            me = station.coordinate
+            progress = 1
+            ahead = []
+            camera = .camera(MapCamera(centerCoordinate: station.coordinate, distance: 290))
+            arrived = true
+        }
+        handleArrival()
+    }
+
+    private func handleArrival() {
         if model.swapOnArrival {
             model.leaveWalk { model.showSwap = true }
         } else if model.returnMode {
             showReturnGuide = true
         }
-
     }
 }
 

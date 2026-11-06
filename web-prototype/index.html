@@ -2287,9 +2287,11 @@ bindSheetDrag=function(){const sh=$("#ns");if(!sh||sh.dataset.drag)return;sh.dat
  const pm=$("#pkM");if(pm)pm.onclick=e=>{e.stopPropagation();set("full")}};
 window.bindSheetDrag=bindSheetDrag;
 
-/* 7) A clear way to stop the route: "End" in the walk card (plus the X in the turn card) */
-document.addEventListener("click",e=>{if(e.target.closest("#wEnd3")){const o=$("#wEnd");o&&o.click()}});
-{const _w=walk2;walk2=window.walk2=function(){const r=_w.apply(this,arguments);const wh=$("#wk .wh");if(wh&&!$("#wEnd3"))wh.insertAdjacentHTML("beforeend",`<button class="endbtn" id="wEnd3">End</button>`);return r};}
+/* 7) "I'm at kiosk" in the walk card: the user says they're there (GPS is weak indoors) → arrive now.
+   The route can still be closed with the X in the turn card. */
+document.addEventListener("click",e=>{if(e.target.closest("#wEnd3")){const s=st.navS||st.dest;if(!s)return;
+  st.navArriveNow=true;clearInterval(st.walkT);st.retMode?insertWait(s):arrived(s)}});
+{const _w=walk2;walk2=window.walk2=function(){const r=_w.apply(this,arguments);const wh=$("#wk .wh");if(wh&&!$("#wEnd3"))wh.insertAdjacentHTML("beforeend",`<button class="endbtn" id="wEnd3">I'm at kiosk</button>`);return r};}
 
 /* 6) Problems get a visual fix guide by error type (not the chatbot) */
 SYM.logo='<rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M13 6.5 10.5 11h3L11 15.5"/>';
@@ -2326,7 +2328,7 @@ body.sheet-over #sheet{z-index:70!important}body.sheet-over #scrim{z-index:69!im
 .lg-otp{display:flex!important;gap:10px;justify-content:center}.lg-otp input{width:58px!important;height:64px!important;border-radius:16px;border:0;background:#fff;box-shadow:0 0 0 .5px var(--line);text-align:center;font:700 28px var(--round);color:var(--ink);outline:0}.lg-otp input:focus{box-shadow:0 0 0 2px var(--brand)}
 .f2-sheet:not(.peek) .peekmore{display:none}.peekmore{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;padding:8px 0 2px;color:var(--brand);font-weight:600;font-size:14px}
 #ns .payrow{display:none!important}
-.endbtn{flex:none;height:40px;padding:0 18px;border-radius:99px;background:#ff3b30;color:#fff;font-weight:700;font-size:16px;align-self:center}
+.endbtn{flex:none;height:40px;padding:0 18px;border-radius:99px;background:var(--brand);color:#fff;font-weight:700;font-size:16px;align-self:center;white-space:nowrap}
 .lg-row{display:flex;align-items:center;gap:10px;height:56px;padding:0 16px;border-radius:16px;background:#fff;box-shadow:0 0 0 .5px var(--line)}.lg-row .cc{font-weight:600;color:var(--mute)}.lg-row input{flex:1;border:0;outline:0;font:600 19px var(--round);background:none;color:var(--ink)}
 .lg-why{display:flex;gap:8px;align-items:flex-start;margin:12px 4px 0;font-size:13.5px;color:var(--mute);line-height:1.35}.lg-why svg{flex:none;margin-top:1px}
 .lg-demo{display:block;margin:10px auto 0;color:var(--brand);font-weight:600}.lg-otp{margin:6px 0 14px}
